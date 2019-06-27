@@ -11,14 +11,18 @@ public class Car {
 			this.color = color;
 			this.brand = brand;
 			this.horsePower = horsePower;
-			
-			this.drive();
 		}
 		
 		// Methoden
 
-		public void drive () {
+		public void drive (int speed) {
+			System.out.println("Das Auto fährt " + speed + " km/h");
+			
+		}
+		
+		public void drive() {
 			System.out.println("Das Auto fährt...");
+			
 		}
 
 
