@@ -7,6 +7,13 @@ public class Car {
 		private String brand;
 		private int horsePower;
 		
+		public Car (String color, String brand, int horsePower) {
+			this.color = color;
+			this.brand = brand;
+			this.horsePower = horsePower;
+			
+			this.drive();
+		}
 		
 		// Methoden
 
