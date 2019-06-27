@@ -11,6 +11,11 @@ public class Car {
 			this.color = color;
 			this.brand = brand;
 			this.horsePower = horsePower;
+			System.out.println("Das Auto wurde erzeugt");
+		}
+		
+		public Car() {
+			System.out.println("Auto wurde erzeugt");
 		}
 		
 		// Methoden
